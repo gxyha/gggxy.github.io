@@ -1,0 +1,839 @@
+.background6 {
+	width: 100%;
+	height: 1489px;
+	background-image: url(../img/bj5.png);
+	position: relative;
+}
+
+@keyframes yd {
+	0% {
+		transform: scale(0.9);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.background6-text {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	/* 				background-color: red; */
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	top: 30%;
+}
+
+.fhsy {
+	width: 150px;
+	height: 70px;
+	background-color: white;
+	backdrop-filter: saturate(150%) contrast(60%) blur(8px);
+	-webkit-backdrop-filter: saturate(150%) contrast(60%) blur(8px);
+	background-color: rgba(0, 0, 0, .3);
+	position: absolute;
+	text-align: center;
+	line-height: 70px;
+	top: 50%;
+	left: 45%;
+	color: white;
+	border-radius: 100px;
+}
+
+a {
+	color: inherit;
+	/*继承父级元素的颜色*/
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.banner {
+	height: 65px;
+	width: 70%;
+	/* background-color: red; */
+	position: absolute;
+	left: 0;
+	top: 0;
+	/* margin-top: 10px; */
+	margin: 10px 15% 15%;
+}
+
+.logo {
+	width: 25%;
+	margin: 5px auto;
+	height: 60px;
+	/* background-color: blue; */
+	float: left;
+	line-height: 65px;
+	text-align: center;
+	vertical-align: bottom;
+	padding-bottom: 20px;
+	border-bottom: solid 1px white;
+}
+
+.menu {
+	/* 				background-color: yellow; */
+	height: 65px;
+	width: 50%;
+	float: left;
+}
+
+.telephone {
+	width: 20%;
+	height: 65px;
+	/* 				background-color: aqua; */
+	float: right;
+	text-align: center;
+	line-height: 65px;
+	color: white;
+	font-family: "黑体";
+	font-size: 15px;
+}
+
+.shouye {
+	/* background-color: green; */
+
+	width: 15%;
+	height: 65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	color: white;
+	font-family: "黑体";
+	font-size: 17px;
+
+}
+
+.jump:hover {
+	background-color: darkgray;
+	opacity: 0.5;
+}
+
+.ypal {
+	/* 				background-color: green; */
+	width: 17%;
+	height: 65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	color: white;
+	font-family: "黑体";
+	font-size: 17px;
+	/* background-color: white; */
+}
+
+.fwbj {
+	/* 				background-color: green; */
+	width: 17%;
+	height: 65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	color: white;
+	font-family: "黑体";
+	font-size: 17px;
+}
+
+.zxdt {
+	/* 				background-color: green; */
+	width: 17%;
+	height: 65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	color: white;
+	font-family: "黑体";
+	font-size: 17px;
+}
+
+.xgjs {
+	/* 				background-color: green; */
+	width: 17%;
+	height: 65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	color: white;
+	font-family: "黑体";
+	font-size: 17px;
+}
+
+.hyzc {
+	/* 				background-color: green; */
+	width: 17%;
+	height: 65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	color: white;
+	font-family: "黑体";
+	font-size: 17px;
+}
+
+.background {
+	width: 100%;
+	height: 800px;
+	/* background-color: green; */
+	background-image: url(../img/bj10.png);
+	/* background-repeat: no-repeat; */
+	background-size: 100% 800px;
+	position: relative;
+	/* background-repeat: repeat; */
+	/* background-size: cover; */
+	/* background-position:-1000px center 水平方向上偏移右边10px，垂直居中	 */
+
+}
+
+.banner-text {
+	position: absolute;
+	color: white;
+	text-align: center;
+	/* left: 37%;
+				top: 15%; */
+	width: 100%;
+	height: 650px;
+	margin: 0 auto;
+	/* position: fixed; */
+	top: 23%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	font-family: "黑体";
+	font-size: 35px;
+	animation: move 1s ease-in-out 1;
+}
+
+.banner-text h2 {
+	padding-bottom: 20px;
+}
+
+a {
+	color: inherit;
+	/*继承父级元素的颜色*/
+	text-decoration: none;
+}
+
+@keyframes move {
+	0% {
+		top: 18%;
+	}
+
+	100% {
+		top: 23%;
+	}
+}
+
+.lbt {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	/* margin: 0 auto; */
+	border-top: solid 50px white;
+	border-bottom: solid 50px white;
+}
+
+.img {
+	position: absolute;
+	width: 4370px;
+	height: 500px;
+	animation: imgmove 30s linear infinite;
+	left: 0;
+	top: 0;
+
+}
+
+.img img {
+	float: left;
+	border-left: solid 50px white;
+}
+
+@keyframes imgmove {
+	0 {
+		left: 1390px;
+	}
+
+	50% {
+		left: -2600px;
+	}
+
+	100% {
+		left: 0px;
+	}
+}
+
+/* .img:hover {
+				animation-play-state: paused;
+			} */
+.background2 {
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/bj2.png);
+	position: relative;
+}
+
+.background2text {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	/* margin:0 auto; */
+	top: 100px;
+}
+
+.background2text h2 {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+.background2text p {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.fwxm {
+	width: 100%;
+	height: 800px;
+	/* 	background-color: green; */
+	margin-top: 80px;
+}
+
+.title {
+	width: 100%;
+	height: 150px;
+	/* 	background-color: red; */
+	margin-bottom: 20px;
+}
+
+.picture {
+	width: 100%;
+	height: 500px;
+	margin-left: 5%;
+	margin-bottom: 100px;
+}
+
+.title h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.title p {
+	font-size: 25px;
+	text-align: center;
+	color: gray;
+}
+
+.zhanban img {
+	float: left;
+	margin-right: 3%;
+	border-radius: 40px;
+	box-shadow: 0px 0px 20px 10px #67b3dd;
+	width: 20%;
+}
+
+.ypal2 {
+	width: 100%;
+	height: 1700px;
+	background-color: #f3f6ff;
+	position: relative;
+	/* 	background-color: red; */
+}
+
+.ypal-title {
+	width: 100%;
+	height: 150px;
+	/* 	background-color: red; */
+	top: 100px;
+	position: absolute;
+}
+
+.ypal-title h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.ypal-title p {
+	font-size: 25px;
+	text-align: center;
+	color: gray;
+}
+
+.ypal-picture {
+	width: 100%;
+	height: 1165px;
+	margin-left: 6%;
+	margin-top: 270px;
+	/* background-color: red; */
+	position: absolute;
+}
+
+.ypal-zhanban img {
+	width: 27%;
+	/* height: 360px; */
+	/* background-color: green; */
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 40px;
+	box-shadow: 0px 0px 20px 10px gray;
+	overflow: hidden;
+}
+
+@keyframes fangda {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+.ypal-zhanban img:hover {
+	animation: fangda 0.5s linear forwards;
+}
+
+.zhanban img:hover {
+	animation: fangda 0.5s linear forwards;
+}
+
+.gdal {
+	position: absolute;
+	background-color: white;
+	width: 160px;
+	height: 60px;
+	top: 94%;
+	left: 45%;
+	border-radius: 40px;
+}
+
+.gdal-text {
+	text-align: center;
+	line-height: 60px;
+	font-size: 25px;
+	border-radius: 40px;
+	box-shadow: 3px 3px 30px 10px gray;
+	overflow: hidden;
+}
+
+.gdal-text:hover {
+	animation: fangda 0.5s linear forwards;
+}
+
+.background3 {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/bj3.png);
+	position: relative;
+
+}
+
+.background3-text {
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 160px;
+}
+
+.background3-text h2 {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.background3-text h3 {
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.background3-text p {
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+
+.end {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+}
+
+.end-text p {
+	line-height: 50px;
+	text-align: center;
+}
+
+.top {
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	z-index: 2;
+	right: 0;
+	top: 30%;
+	/* background-color: #1f1f1f; */
+	/* background-image: url(img/背景图片5.jpg); */
+	/* border-radius: 20px; */
+}
+
+.lxwm {
+	width: 150px;
+	height: 50px;
+	position: fixed;
+	z-index: 2;
+	right: 0;
+	top: 50%;
+
+	/* background-image: url(img/背景图片5.jpg); */
+	border-radius: 20px;
+}
+
+.background5 {
+	width: 100%;
+	height: 1489px;
+	background-image: url(../img/bj5.png);
+	position: relative;
+}
+
+@keyframes yd {
+	0% {
+		transform: scale(0.9);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.registered {
+	width: 50%;
+	height: 800px;
+	background-color: white;
+	backdrop-filter: saturate(150%) contrast(60%) blur(8px);
+	-webkit-backdrop-filter: saturate(150%) contrast(60%) blur(8px);
+	background-color: rgba(0, 0, 0, .3);
+	position: absolute;
+	left: 25%;
+	top: 11%;
+	border-radius: 100px;
+	box-shadow: 0px 0px 50px 30px black;
+	overflow: hidden;
+	animation: yd 0.5s linear forwards;
+}
+
+.text {
+	width: 100%;
+	height: 1000px;
+
+
+	/* background-color: red; */
+}
+
+.background5-title {
+	/* text-align: center; */
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 80px;
+	left: 39%;
+	font-family: '黑体';
+	letter-spacing: 5px;
+	height: 75px;
+	/* background-color: red; */
+}
+
+.zhanghu {
+	position: absolute;
+	top: 200px;
+	left: 20%;
+	font-size: 25px;
+	color: white;
+}
+
+.zhanghu input {
+	font-size: 20px;
+	text-align: center;
+	height: 40px;
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	background-color: #ffffff00;
+}
+
+.mima {
+	position: absolute;
+	top: 260px;
+	left: 23%;
+	font-size: 25px;
+	color: white;
+}
+
+.mima input {
+	font-size: 20px;
+	text-align: center;
+	height: 40px;
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	background-color: #ffffff00;
+}
+
+.yxxm {
+	position: absolute;
+	top: 340px;
+	left: 17%;
+	font-size: 25px;
+	color: white;
+}
+
+.yhlx {
+	position: absolute;
+	top: 390px;
+	left: 17%;
+	font-size: 25px;
+	color: white;
+}
+
+.chengshi {
+	position: absolute;
+	top: 440px;
+	left: 23%;
+	font-size: 25px;
+	color: white;
+}
+
+.chengshi select {
+	font-size: 20px;
+	height: 30px;
+}
+
+.zlsc {
+	position: absolute;
+	top: 490px;
+	left: 17%;
+	font-size: 25px;
+	color: white;
+}
+
+.zlsc input {
+	font-size: 20px;
+	height: 30px;
+}
+
+.bz {
+	position: absolute;
+	top: 540px;
+	left: 23%;
+	font-size: 25px;
+	color: white;
+}
+
+.bz textarea {
+	font-size: 25px;
+	height: 25px;
+}
+
+.cxtx {
+	position: absolute;
+	top: 650px;
+	left: 25%;
+	font-size: 50px;
+	color: white;
+}
+
+.cxtx button {
+	font-size: 30px;
+	height: 50px;
+	width: 150px;
+	border-radius: 40px;
+}
+
+.qrtj {
+	position: absolute;
+	top: 650px;
+	right: 25%;
+	font-size: 50px;
+	color: white;
+}
+
+.qrtj input {
+	font-size: 30px;
+	height: 50px;
+	width: 150px;
+	border-radius: 40px;
+}
+
+.background7 {
+	width: 100%;
+	height: 1489px;
+	background-image: url(../img/bj5.png);
+	position: relative;
+}
+
+.background7-title {
+	width: 20%;
+	position: absolute;
+	left: 40%;
+	right: 40%;
+	top: 10%;
+	letter-spacing: 5px;
+	font-family: "黑体";
+	/* background-color: red; */
+}
+
+.background7-title-1 {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+.background7-title-2 {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.background7-text {
+	width: 100%;
+	position: absolute;
+	/* left: 10%;
+				right: 10%; */
+	top: 21%;
+	/* background-color: red; */
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: "黑体";
+}
+
+.background7-message {
+	width: 50%;
+	position: absolute;
+	left: 10%;
+	/* right: 10%; */
+	top: 35%;
+	color: white;
+	font-size: 30px;
+	letter-spacing: 4px;
+	line-height: 40px;
+	font-family: "黑体";
+	/* background-color: red; */
+}
+
+.background7-message-title {
+	margin-bottom: 2%;
+}
+
+.backgroud7-message-img {
+	width: 30%;
+	position: absolute;
+	left: 65%;
+	top: 32%;
+	/* background-color: red; */
+}
+
+.background8 {
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/bj10.png);
+	background-size: 100% 800px;
+	position: relative;
+}
+
+.backgroud8-backgroud-text {
+	position: absolute;
+	color: white;
+	text-align: center;
+	/* left: 37%;
+							top: 15%; */
+	width: 100%;
+	height: 650px;
+	margin: 0 auto;
+	/* position: fixed; */
+	top: 23%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	font-family: "黑体";
+	font-size: 30px;
+	animation: move 1s ease-in-out 1;
+}
+
+.backgroud8-backgroud-text h2 {
+	margin-bottom: 1%;
+}
+
+.introduce-title {
+	width: 100%;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 3%;
+	font-family: "黑体";
+	letter-spacing: 5px;
+}
+
+.introduce-title span {
+	color: cornflowerblue;
+	font-size: 65px;
+}
+
+.introduce-text-1 {
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 10%;
+	font-size: 23px;
+	font-family: "黑体";
+}
+
+.introduce-text-1 p {
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.introduce-text-1 img {
+	margin-left: 8%;
+}
+
+.introduce-text-1 span {
+	color: cornflowerblue;
+}
+
+.introduce-text-2 {
+	width: 85%;
+	margin-top: 5%;
+	margin-left: 10%;
+	/* background-color: red; */
+	/* margin-right: 5%; */
+	font-size: 23px;
+	font-family: "黑体";
+}
+
+.introduce-text-2 p {
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.introduce-text-2 img {
+	margin-left: 8%;
+}
+
+.introduce-text-2-span-1{
+	color: cornflowerblue;
+}
+.introduce-text-2-span-2{
+	font-weight: bold;
+}
